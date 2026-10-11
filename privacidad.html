@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Miss Tik · Privacidad</title>
+<meta name="description" content="Política de privacidad de Miss Tik, asistente personal privada.">
+<style>
+  :root { --negro: #0e0e10; --superficie: #18181b; --papel: #faebd3; --tenue: #9b968f; --ambar: #fac331; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--negro); color: var(--papel); font: 16.5px/1.65 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { color: var(--ambar); font-size: 30px; margin: 0 0 6px; }
+  .sub { color: var(--tenue); margin: 0 0 28px; }
+  h2 { font-size: 17px; color: var(--ambar); margin: 28px 0 6px; }
+  ul { padding-left: 22px; }
+  a { color: var(--ambar); }
+  .en { background: var(--superficie); border-radius: 16px; padding: 4px 20px 12px; margin-top: 36px; }
+  footer { color: var(--tenue); font-size: 14px; margin-top: 32px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Política de privacidad</h1>
+  <p class="sub">Miss Tik · vigente desde el 11 de octubre de 2026</p>
+
+  <h2>Quién la usa</h2>
+  <p>Miss Tik es una asistente personal privada. La usa una sola persona, su dueño (Rurú, Ruru Estudio). No hay otros usuarios, no se ofrece al público y no tiene publicidad.</p>
+
+  <h2>Qué datos de Google usa</h2>
+  <ul>
+    <li><b>Gmail</b> (permiso <code>gmail.modify</code>): remitente, fecha, categoría, tamaño y etiquetas de los mails, para proponerle al dueño cómo ordenarlos. Solo con su aprobación etiqueta, archiva o manda a la papelera. <b>No borra mails de forma definitiva</b> (el permiso no lo permite). El contenido de un mail se lee solo si el dueño lo pide para ese mail.</li>
+    <li><b>Google Calendar</b> (permiso <code>calendar.events</code>): ver y crear eventos del dueño.</li>
+    <li><b>Su dirección de correo</b> (<code>openid</code>, <code>email</code>): para saber a qué cuenta corresponde cada permiso.</li>
+  </ul>
+
+  <h2>Dónde se guardan</h2>
+  <p>El permiso y lo que Miss Tik anota viven en un teléfono del dueño, en un archivo privado, y en copias de respaldo cifradas en su computadora. No se suben a servidores propios ni de terceros.</p>
+
+  <h2>Con quién se comparten</h2>
+  <p>Con nadie. Los datos no se venden, no se usan para publicidad ni para entrenar modelos de inteligencia artificial propios. Cuando el dueño le pide a Miss Tik que lea o resuma un mail, ese texto se procesa con la API de Gemini de Google para generar la respuesta.</p>
+
+  <h2>Uso limitado</h2>
+  <p>El uso que Miss Tik hace de la información recibida de las APIs de Google cumple la <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de datos de usuario de los servicios de API de Google</a>, incluidos los requisitos de Uso limitado.</p>
+
+  <h2>Cómo quitar el permiso</h2>
+  <p>En cualquier momento, desde <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a> → Miss Tik → Quitar acceso. Al quitarlo, Miss Tik deja de poder acceder a la cuenta y su archivo de permiso deja de servir.</p>
+
+  <h2>Contacto</h2>
+  <p>Por el perfil de GitHub donde está publicada esta página.</p>
+
+  <section class="en">
+    <h2>English summary</h2>
+    <p>Miss Tik is a private personal assistant used by a single person, its owner. With the owner's consent it reads Gmail metadata (sender, date, category, size, labels) to suggest how to organize the mailbox and, only with the owner's approval, labels, archives or moves messages to Trash; it never permanently deletes mail. It reads and creates Google Calendar events for the owner. Data is stored only on the owner's own devices, is never sold, shared or used for advertising. Message content is read only when the owner asks, and is then processed with Google's Gemini API to answer. Miss Tik's use of information received from Google APIs adheres to the Google API Services User Data Policy, including the Limited Use requirements. Access can be revoked at any time at myaccount.google.com/permissions.</p>
+  </section>
+
+  <footer>© 2026 Ruru Estudio · <a href="index.html">Miss Tik</a></footer>
+</main>
+</body>
+</html>
